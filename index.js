@@ -43,7 +43,7 @@ ctrls.enableDamping = true;
 const gltfLoader = new GLTFLoader();
 
 const picnicTableGlb = await gltfLoader.loadAsync(
-  `${import.meta.env.BASE_URL}Day 46 - Picnic Table.glb`
+  `${import.meta.env.BASE_URL}PicnicTable.glb`
 );
 const picnicTable = picnicTableGlb.scene;
 
